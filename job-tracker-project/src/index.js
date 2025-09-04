@@ -9,6 +9,8 @@ import App from './App'
 import theme from './styles/theme'
 import { store, persistor } from './store'
 import { listenToAuth } from './store/slices/authSlice'
+import './index.css';
+
 
 function Root() {
   useEffect(() => {

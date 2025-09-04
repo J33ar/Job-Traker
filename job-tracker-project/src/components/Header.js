@@ -37,6 +37,9 @@ export default function Header() {
             <Button color="inherit" component={Link} to="/dashboard">Dashboard</Button>
             <Button color="inherit" component={Link} to="/profile">Profile</Button>
             {user.role === 'admin' && <Button color="inherit" component={Link} to="/admin">Admin</Button>}
+            <Button component={Link} to="/resume">Resume</Button>
+            <Button component={Link} to="/analyzer">Analyzer</Button>
+            <Button component={Link} to="/chatbot">Chatbot</Button>
             <Button variant="outlined" color="secondary" onClick={handleLogout}>Logout</Button>
           </Box>
         )}
